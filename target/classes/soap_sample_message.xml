@@ -1,0 +1,6 @@
+<policy>
+    <id>4711</id>
+    <number>${number}</number>
+    <totalPremiumAtExpiration>12.7</totalPremiumAtExpiration>
+    <bindDate>${bindDate}</bindDate>
+</policy>

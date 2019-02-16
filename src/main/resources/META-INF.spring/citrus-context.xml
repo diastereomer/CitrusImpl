@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:citrus-jms="http://www.citrusframework.org/schema/jms/config"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.citrusframework.org/schema/jms/config
+       http://www.citrusframework.org/schema/jms/config/citrus-jms-config.xsd">
+
+    <bean id="connectionFactory"
+          class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL" value="tcp://localhost:61616"/>
+    </bean>
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+        <property name="url" value="jdbc:jtds:sqlserver://sqlservername:1433/databasename;"/>
+        <property name="username" value="john"/>
+        <property name="password" value="doe"/>
+    </bean>
+
+    <citrus-jms:endpoint id="InsertIntoDB"
+                         destination-name="InsertIntoDB"
+                         timeout="10000"/>
+
+</beans>
