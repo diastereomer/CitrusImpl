@@ -16,7 +16,7 @@ public class DatabaseTest extends CitrusTestBase {
     @CitrusTest
     public void sendSubmissionUpdate() {
         purgeQueues().queueNames("ActiveMQ.DLQ", "request");
-        send(jmsEndpoint("um_dw_inbound")).payload(new ClassPathResource("SOAPtest1.xml"));
+        send(jmsEndpoint("inbound")).payload(new ClassPathResource("SOAPtest1.xml"));
     }
 
     @Test
