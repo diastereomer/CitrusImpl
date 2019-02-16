@@ -23,24 +23,24 @@ public class DatabaseTest extends CitrusTestBase {
     @CitrusTest
     public void validRequestsShouldNotBeRoutedToDLQ() {
         purgeQueues().queueNames("ActiveMQ.DLQ", "request");
-        sql(dataSource).statement("delete from UM_Policy");
+        sql(dataSource).statement("delete from Policy");
         variable("bindDate", "2017-02-15T14:51:51-07:00");
         variable("number", "12");
         send(jmsEndpoint("request")).payload(new ClassPathResource("soap_sample_message.xml"));
         receiveTimeout(jmsEndpoint("ActiveMQ.DLQ"));
-        query(dataSource).statement("select count(*) cnt from UM_Policy").validate("cnt", "1");
+        query(dataSource).statement("select count(*) cnt from Policy").validate("cnt", "1");
     }
 
     @Test
     @CitrusTest
     public void policyWithNullNumberHasToBeWrittenToDatabase() {
         purgeQueues().queueNames("ActiveMQ.DLQ", "request");
-        sql(dataSource).statement("delete from UM_Policy");
+        sql(dataSource).statement("delete from Policy");
         variable("bindDate", "2017-02-15T14:51:51-07:00");
         variable("number", "");
-        send(jmsEndpoint("request")).payload(new ClassPathResource("guidewire/request.xml"));
+        send(jmsEndpoint("request")).payload(new ClassPathResource("soap_sample_message.xml"));
         receiveTimeout(jmsEndpoint("ActiveMQ.DLQ"));
-        query(dataSource).statement("select count(*) cnt from UM_Policy").validate("cnt", "1");
+        query(dataSource).statement("select count(*) cnt from Policy").validate("cnt", "1");
     }
 
     @Test
@@ -49,8 +49,8 @@ public class DatabaseTest extends CitrusTestBase {
         purgeQueues().queueNames("ActiveMQ.DLQ", "request");
         variable("bindDate", "unknownDate");
         variable("number", "12");
-        send(jmsEndpoint("request")).payload(new ClassPathResource("guidewire/request.xml"));
-        receive(jmsEndpoint("ActiveMQ.DLQ")).payload(new ClassPathResource("guidewire/request.xml"));
+        send(jmsEndpoint("request")).payload(new ClassPathResource("soap_sample_message.xml"));
+        receive(jmsEndpoint("ActiveMQ.DLQ")).payload(new ClassPathResource("soap_sample_message.xml"));
     }
 
 }

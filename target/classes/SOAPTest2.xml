@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<beans.UMPolicy>
+    <id>998</id>
+    <policyNumber>test</policyNumber>
+    <totalPremiumAtExpiration>1</totalPremiumAtExpiration>
+    <bindDate>2017-02-23 17:06:59.672 UTC</bindDate>
+</beans.UMPolicy>

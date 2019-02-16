@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1523a43-df30-431e-8466-1596b7f9ef67" name="Default Changelist" comment="" />
+    <list default="true" id="f1523a43-df30-431e-8466-1596b7f9ef67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/JpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF.spring/citrus-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/citrus-context.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="1122">
               <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
@@ -29,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/CitrusTestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="48" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/DatabaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="97">
+              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,9 +56,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/SubmissionUpdate.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/JpaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/SOAPtest1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/SOAPTest2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -69,20 +100,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/soap_sample_message.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/citrus-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF.spring/citrus-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -96,6 +118,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -104,6 +129,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF.spring/citrus-context.xml" />
         <option value="$PROJECT_DIR$/citrusimpl.iml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/SOAPtest1.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/SOAPTest2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/JpaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/DatabaseTest.java" />
       </list>
     </option>
@@ -121,6 +149,7 @@
     <option name="width" value="927" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -167,14 +196,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="citrusimpl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="citrusimpl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF.spring" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -185,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550327736393" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550347587281" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -200,6 +221,7 @@
       <recent name="com.peitron.citrusimpl" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF.spring" />
     </key>
   </component>
@@ -215,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JpaTest">
     <configuration name="CitrusTestBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="citrusimpl" />
       <extension name="coverage">
@@ -231,8 +253,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JpaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="citrusimpl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.peitron.citrusimpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.peitron.citrusimpl" />
+      <option name="MAIN_CLASS_NAME" value="com.peitron.citrusimpl.JpaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JpaTest" />
         <item itemvalue="JUnit.CitrusTestBase" />
       </list>
     </recent_temporary>
@@ -247,7 +285,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550323271229</updated>
-      <workItem from="1550323277288" duration="4218000" />
+      <workItem from="1550323277288" duration="9969000" />
     </task>
     <servers />
   </component>
@@ -264,9 +302,15 @@
     <history-entry file="CitrusTestBase - 2019.02.16 at 09h 11m 51s.xml">
       <configuration name="CitrusTestBase" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CitrusTestBase - 2019.02.16 at 13h 04m 14s.xml">
+      <configuration name="CitrusTestBase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CitrusTestBase - 2019.02.16 at 13h 04m 46s.xml">
+      <configuration name="CitrusTestBase" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4218000" />
+    <option name="totallyTimeSpent" value="9969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -279,15 +323,15 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18483675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.33045357" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3297414" />
+      <window_info anchor="bottom" id="Messages" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -308,16 +352,77 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF.spring/citrus-context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SOAPtest1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SubmissionUpdate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UMPolicy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SOAPTest2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/soap_sample_message.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/peitron/citrusimpl/CitrusTestBase.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/JpaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/CitrusTestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/DatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="1122">
           <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
@@ -329,38 +434,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/peitron/citrusimpl/CitrusTestBase.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/soap_sample_message.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/CitrusTestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/citrus-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/peitron/citrusimpl/DatabaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SubmissionUpdate.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
